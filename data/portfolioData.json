@@ -1,0 +1,103 @@
+[
+  {
+    "IMAGE": "/uploads/Ellipse 15.png",
+    "NAME": "The Friends Experience",
+    "SUBHEAD": "Principal Engineer",
+    "DESCRIPTION": "Founder and CEO",
+    "ALT": "Nik Moore photo",
+    "LINK": "/project1",
+    "ICONS": [
+      {
+        "javaScript": true,
+        "vue": true,
+        "nuxt": true
+      }
+    ],
+    "SUBNAV": [
+      {
+        "IMAGE": "/uploads/Ellipse 15.png",
+        "NAME": "The Friends Experience",
+        "SUBHEAD": "Principal Engineer",
+        "DESCRIPTION": "Founder and CEO"
+      }
+    ]
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 29.png",
+    "NAME": "The Office Experience",
+    "SUBHEAD": "Principal Engineer",
+    "DESCRIPTION": "COO",
+    "ALT": "Justin Overton photo",
+    "LINK": "/project2",
+    "ICONS": [
+      {
+        "javaScript": true,
+        "isReact": true,
+        "next": true
+      }
+    ],
+    "SUBNAV": [
+      {
+        "IMAGE": "/uploads/Ellipse 15.png",
+        "NAME": "The test Experience",
+        "SUBHEAD": "Principal Engineer",
+        "DESCRIPTION": "Founder and CEO"
+      }
+    ]
+  },
+  {
+    "IMAGE": "/uploads/mike.png",
+    "NAME": "Outside Lands Music Festival",
+    "SUBHEAD": "Principal Engineer",
+    "DESCRIPTION": "CTO",
+    "ALT": "Mike Choi photo",
+    "LINK": "/project3",
+    "ICONS": [
+      {
+        "javaScript": true,
+        "vue": true
+      }
+    ]
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 17.png",
+    "NAME": "Hero Galaxy NFT",
+    "SUBHEAD": "Founding/Principal Engineer",
+    "DESCRIPTION": "Distinguished Engineer",
+    "ALT": "Dylan Cronkhite photo",
+    "LINK": "/project4",
+    "ICONS": [
+      {
+        "javaScript": true,
+        "next": true,
+        "isReact": true
+      }
+    ]
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 28.png",
+    "NAME": "Adobe Automator",
+    "SUBHEAD": "Inventor/Developer",
+    "DESCRIPTION": "Principal Engineer",
+    "ALT": "Jack Transue photo",
+    "LINK": "/project5",
+    "ICONS": [
+      {
+        "javaScript": true
+      }
+    ]
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 19.png",
+    "NAME": "Banner Ad Automation",
+    "SUBHEAD": "Web Developer",
+    "DESCRIPTION": "Lead UX/UI Designer",
+    "ALT": "Grace Transue photo",
+    "LINK": "/project6",
+    "ICONS": [
+      {
+        "javaScript": true
+      }
+    ]
+  }
+]
