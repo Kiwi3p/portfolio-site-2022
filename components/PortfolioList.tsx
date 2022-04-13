@@ -10,8 +10,8 @@ const PortfolioList = () => {
             <>
               <div className="mx-10">
                 <img
-                  src="https://i.ibb.co/gmV2mLr/pexels-maksim-goncharenok-4352247-1-1-1.png"
-                  alt="A lounge sofa"
+                  src={item.IMAGE}
+                  alt={item.ALT}
                   role="img"
                   className="w-full h-full relative hidden lg:block"
                 />

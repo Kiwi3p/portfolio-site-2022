@@ -1,5 +1,4 @@
 import { useRouter } from "next/router";
-import Link from "next/link";
 import portfolioData from "../../../data/portfolioData.json";
 import Layout from "../../../components/wrappers/Layout";
 import ProjectHero from "../../../components/ProjectHero";
@@ -22,13 +21,27 @@ const Post = () => {
                   <>
                     {item.SUBNAV ? (
                       <>
-                        {item.SUBNAV.map((item, index) => {
+                        {item.SUBNAV.map((item: any, index) => {
                           return (
                             <>
-                              {item.NAME}
-                              <ProjectHero />
-                              <ContentBlock />
-                              <PortfolioLink />
+                              <ProjectHero
+                                header={item.NAME}
+                                img={item.IMAGE}
+                                subhead={item.SUBHEAD}
+                                description={item.DESCRIPTION}
+                                icons={item.ICONS}
+                                url={item.SITELINK}
+                              />
+                              <ContentBlock
+                                img={item.TECHIMG}
+                                header={item.TECHHEADER}
+                                description={item.TECHDESCRIPTION}
+                              />
+                              <PortfolioLink
+                                header={item.GITHUBHEADER}
+                                github={item.GITHUBLINK}
+                                url={item.SITELINK}
+                              />
                             </>
                           );
                         })}

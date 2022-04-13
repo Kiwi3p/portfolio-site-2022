@@ -1,6 +1,7 @@
 [
   {
-    "IMAGE": "/uploads/Ellipse 15.png",
+    "IMAGE": "/assets/img/friends-img.png",
+    "SQUARE": "/assets/img/1x1-friends.jpg",
     "NAME": "The Friends Experience",
     "SUBHEAD": "Principal Engineer",
     "DESCRIPTION": "Founder and CEO",
@@ -15,15 +16,30 @@
     ],
     "SUBNAV": [
       {
-        "IMAGE": "/uploads/Ellipse 15.png",
+        "IMAGE": "/assets/img/friends-img.png",
         "NAME": "The Friends Experience",
         "SUBHEAD": "Principal Engineer",
-        "DESCRIPTION": "Founder and CEO"
+        "ICONS": [
+          {
+            "javaScript": true,
+            "vue": true,
+            "nuxt": true
+          }
+        ],
+        "DESCRIPTION": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "TECHHEADER": "Tech header example",
+        "TECHDESCRIPTION": "yadaydayadya ayydaydy aya ya yaydasyddjhhfj",
+        "TECHIMG": "/assets/img/friends-img.png",
+        "GITHUBHEADER": "See more on github",
+        "GITHUBLINK": "/",
+        "SITELINK": "/"
+        
       }
     ]
   },
   {
-    "IMAGE": "/uploads/Ellipse 29.png",
+    "IMAGE": "/assets/img/office-img.png",
+    "SQUARE": "/assets/img/1x1-office.jpg",
     "NAME": "The Office Experience",
     "SUBHEAD": "Principal Engineer",
     "DESCRIPTION": "COO",
@@ -38,7 +54,7 @@
     ],
     "SUBNAV": [
       {
-        "IMAGE": "/uploads/Ellipse 15.png",
+        "IMAGE": "/assets/img/office-img.png",
         "NAME": "The test Experience",
         "SUBHEAD": "Principal Engineer",
         "DESCRIPTION": "Founder and CEO"
@@ -46,7 +62,8 @@
     ]
   },
   {
-    "IMAGE": "/uploads/mike.png",
+    "IMAGE": "https://i.ibb.co/gDdnJb5/img-6.png",
+    "SQUARE": "https://i.ibb.co/gDdnJb5/img-6.png",
     "NAME": "Outside Lands Music Festival",
     "SUBHEAD": "Principal Engineer",
     "DESCRIPTION": "CTO",
@@ -60,7 +77,8 @@
     ]
   },
   {
-    "IMAGE": "/uploads/Ellipse 17.png",
+    "IMAGE": "/assets/img/hero-galaxy-img.png",
+    "SQUARE": "/assets/img/1x1-galaxy.jpg",
     "NAME": "Hero Galaxy NFT",
     "SUBHEAD": "Founding/Principal Engineer",
     "DESCRIPTION": "Distinguished Engineer",
@@ -75,7 +93,8 @@
     ]
   },
   {
-    "IMAGE": "/uploads/Ellipse 28.png",
+    "IMAGE": "/assets/img/banner1-img.png",
+    "SQUARE": "/assets/img/1x1-banner1.jpg",
     "NAME": "Adobe Automator",
     "SUBHEAD": "Inventor/Developer",
     "DESCRIPTION": "Principal Engineer",
@@ -88,7 +107,8 @@
     ]
   },
   {
-    "IMAGE": "/uploads/Ellipse 19.png",
+    "IMAGE": "/assets/img/banner2-img.png",
+    "SQUARE": "/assets/img/1x1-banner2.jpg",
     "NAME": "Banner Ad Automation",
     "SUBHEAD": "Web Developer",
     "DESCRIPTION": "Lead UX/UI Designer",

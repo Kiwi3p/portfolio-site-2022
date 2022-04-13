@@ -3,7 +3,7 @@ const Hero = ({ children, title, img, btnLink, btn }: any) => {
     <div className="dark:bg-gray-900">
       <div className="container mx-auto py-9 md:py-12 lg:py-24">
         <div className="flex flex-col lg:flex-row justify-center items-strech mx-4">
-          <div className="lg:w-4/12 flex justify-center items-center">
+          <div className="lg:w-8/12 flex justify-center items-center">
             <div>
               <h1 className="dark:text-white text-4xl md:text-5xl xl:text-6xl font-semibold text-gray-900 w-7/12">
                 {title}
@@ -13,13 +13,13 @@ const Hero = ({ children, title, img, btnLink, btn }: any) => {
               </p>
             </div>
           </div>
-          <div className="lg:w-8/12 mt-6 md:mt-8 lg:mt-0">
-            <div className="relative w-full h-full">
+          <div className="lg:w-8/12 mt-6 md:mt-8 lg:mt-0 flex justify-end">
+            <div className="relative w-96 h-full">
               <img
                 src={img}
                 alt="A lounge sofa"
                 role="img"
-                className="w-full h-full relative hidden lg:block"
+                className="object-scale-down w-full h-full relative hidden lg:block"
               />
               <img
                 src={img}
@@ -27,7 +27,7 @@ const Hero = ({ children, title, img, btnLink, btn }: any) => {
                 role="img"
                 className="w-full h-full lg:hidden"
               />
-              <div className="hidden lg:block absolute bottom-0 right-0 bg-red-200 w-1/2">
+              <button className="hidden lg:block absolute bottom-0 right-0 bg-red-200 w-1/2">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -68,7 +68,7 @@ const Hero = ({ children, title, img, btnLink, btn }: any) => {
                     </svg>
                   </div>
                 </a>
-              </div>
+              </button>
             </div>
             <div className="mt-6 md:mt-8 lg:hidden">
               <button className="dark:hover:bg-gray-800 dark:bg-white dark:hover:text-gray-50 dark:text-gray-800 bg-gray-800 text-base md:text-xl font-semibold leading-tight text-white flex justify-between items-center px-5 py-4 lg:py-7 lg:px-7 w-full md:w-5/12 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">

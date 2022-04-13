@@ -1,17 +1,18 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import Hero from "../components/Hero";
-import PortfolioBlocks from "../components/PortfolioBlocks";
+// import PortfolioBlocks from "../components/PortfolioBlocks";
 import Layout from "../components/wrappers/Layout";
-import styles from "../styles/Home.module.css";
+import dynamic from 'next/dynamic';
+
+const PortfolioBlocks = dynamic(() => import("../components/PortfolioBlocks"))
+
 
 const Home: NextPage = () => {
   return (
     <Layout title="homepage">
       <Hero
         title="JACK TRANSUE"
-        img="https://i.ibb.co/Mhgkt2f/pexels-maksim-goncharenok-4352247-1-1-1.png"
+        img="/assets/img/JT_PROF_PIC.jpg"
         btn="see resume"
         btnkLink="/resume"
       >
