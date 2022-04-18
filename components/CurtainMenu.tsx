@@ -25,7 +25,7 @@ export const CurtainMenuPage = ({ navData }: any) => {
         </button>
         <MenuContainer>
           <MenuItem toggle={toggle} href="/">
-            Home
+            home
           </MenuItem>
           {navData.map((item: any, index: any) => {
             return (

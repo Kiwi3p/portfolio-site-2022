@@ -2,10 +2,9 @@ import type { NextPage } from "next";
 import Hero from "../components/Hero";
 // import PortfolioBlocks from "../components/PortfolioBlocks";
 import Layout from "../components/wrappers/Layout";
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
 
-const PortfolioBlocks = dynamic(() => import("../components/PortfolioBlocks"))
-
+const PortfolioBlocks = dynamic(() => import("../components/PortfolioBlocks"));
 
 const Home: NextPage = () => {
   return (
@@ -14,12 +13,18 @@ const Home: NextPage = () => {
         title="JACK TRANSUE"
         img="/assets/img/JT_PROF_PIC.jpg"
         btn="see resume"
-        btnkLink="/resume"
+        url="/assets/uploads/JackTransueResume040822.pdf"
       >
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout. The point of
-        using Lorem Ipsum is that it has a more-or-less normal distribution of
-        letters, as opposed to using.
+        Hi! I&apos;m full stack engineer with a creative background After
+        establishing automation technologies that connect designer animations to
+        large scale ad deliveries, I transitioned to full stack engineering,
+        working on projects for some of my favorite festivals and brands,
+        helping capture hundreds of thousands of users.
+        <br />
+        <br />
+        Feel free to message me here on LinkedIn to discuss opportunities! My
+        expertise includes Javascript, React, MongoDB, AXIOS, NodeJs, ExpressJs,
+        ES6, HTML & CSS, and NestJS.
       </Hero>
       <PortfolioBlocks />
     </Layout>

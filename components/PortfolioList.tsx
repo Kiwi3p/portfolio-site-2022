@@ -8,22 +8,28 @@ const PortfolioList = () => {
         {portfolioData.map((item: any, index: any) => {
           return (
             <>
-              <div className="mx-10">
-                <img
-                  src={item.IMAGE}
-                  alt={item.ALT}
-                  role="img"
-                  className="w-full h-full relative hidden lg:block"
-                />
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className="lg:mx-10 mx-auto cursor-pointer"
+              >
+                <Link href={`/post${item.LINK}`}>
+                  <img
+                    src={item.IMAGE}
+                    alt={item.ALT}
+                    role="img"
+                    className="w-full h-full relative"
+                  />
+                </Link>
               </div>
-              <div className="bg-white rounded-lg p-6" data-aos="fade-up">
-                <div
-                  className="flex items-center space-x-6 mb-4"
-                  data-aos="zoom-in-up"
-                  data-aos-duration="500"
-                >
-                  <div>
-                    <Link href={`/post/${item.LINK}`}>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className="bg-white rounded-lg p-6"
+              >
+                <div className="flex items-center space-x-6 mb-4">
+                  <div className="cursor-pointer">
+                    <Link href={`/post${item.LINK}`}>
                       <p className="text-5xl text-gray-700 font-normal mb-1">
                         {item.NAME}
                       </p>
@@ -35,86 +41,51 @@ const PortfolioList = () => {
                       return (
                         <>
                           {data.javaScript ? (
-                            <a
-                              href="https://www.linkedin.com/feed/"
-                              className="hover:cursor-pointer hover:text-blue-500"
-                            >
-                              <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                <i className="devicon-javascript-plain"></i>
-                              </button>
-                            </a>
+                            <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                              <i className="devicon-javascript-plain"></i>
+                            </button>
                           ) : (
                             <></>
                           )}
                           {data.vue ? (
-                            <a
-                              href="https://www.linkedin.com/feed/"
-                              className="hover:cursor-pointer hover:text-blue-500"
-                            >
-                              <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                <i className="devicon-vuejs-plain"></i>
-                              </button>
-                            </a>
+                            <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                              <i className="devicon-vuejs-plain"></i>
+                            </button>
                           ) : (
                             <></>
                           )}
                           {data.isReact ? (
-                            <a
-                              href="https://www.linkedin.com/feed/"
-                              className="hover:cursor-pointer hover:text-blue-500"
-                            >
-                              <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                <i className="devicon-react-original"></i>
-                              </button>
-                            </a>
+                            <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                              <i className="devicon-react-original"></i>
+                            </button>
                           ) : (
                             <></>
                           )}
                           {data.next ? (
-                            <a
-                              href="https://www.linkedin.com/feed/"
-                              className="hover:cursor-pointer hover:text-blue-500"
-                            >
-                              <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                <i className="devicon-nextjs-original"></i>
-                              </button>
-                            </a>
+                            <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                              <i className="devicon-nextjs-original"></i>
+                            </button>
                           ) : (
                             <></>
                           )}
                           {data.python ? (
-                            <a
-                              href="https://www.linkedin.com/feed/"
-                              className="hover:cursor-pointer hover:text-blue-500"
-                            >
-                              <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                <i className="devicon-python-plain"></i>
-                              </button>
-                            </a>
+                            <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                              <i className="devicon-python-plain"></i>
+                            </button>
                           ) : (
                             <></>
                           )}
                           {data.django ? (
-                            <a
-                              href="https://www.linkedin.com/feed/"
-                              className="hover:cursor-pointer hover:text-blue-500"
-                            >
-                              <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                <i className="devicon-django-plain"></i>
-                              </button>
-                            </a>
+                            <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                              <i className="devicon-django-plain"></i>
+                            </button>
                           ) : (
                             <></>
                           )}
                           {data.nest ? (
-                            <a
-                              href="https://www.linkedin.com/feed/"
-                              className="hover:cursor-pointer hover:text-blue-500"
-                            >
-                              <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                <i className="devicon-nestjs-plain"></i>
-                              </button>
-                            </a>
+                            <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                              <i className="devicon-nestjs-plain"></i>
+                            </button>
                           ) : (
                             <></>
                           )}
@@ -124,15 +95,8 @@ const PortfolioList = () => {
                   </div>
                 </div>
                 <div>
-                  <p
-                    className="text-gray-400 leading-normal font-normal text-2xl"
-                    data-aos="zoom-in-up"
-                    data-aos-duration="500"
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <p className="text-gray-400 leading-normal font-normal text-2xl">
+                    {item.DESCRIPTION}
                   </p>
                 </div>
               </div>

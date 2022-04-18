@@ -9,10 +9,11 @@
   },
   {
     "name": "resume",
-    "link": "/resume"
+    "isLinkOut": true,
+    "link": "/assets/uploads/JackTransueResume040822.pdf"
   },
   {
     "name": "contact",
-    "link": "/portfolio"
+    "link": "/contact"
   }
 ]

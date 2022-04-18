@@ -1,8 +1,9 @@
-const Hero = ({ children, title, img, btnLink, btn }: any) => {
+
+const Hero = ({ children, title, img, url, btn }: any) => {
   return (
     <div className="dark:bg-gray-900">
       <div className="container mx-auto py-9 md:py-12 lg:py-24">
-        <div className="flex flex-col lg:flex-row justify-center items-strech mx-4">
+        <div className="flex flex-col lg:flex-row justify-center items-strech my-10 lg:my-auto mx-4">
           <div className="lg:w-8/12 flex justify-center items-center">
             <div>
               <h1 className="dark:text-white text-4xl md:text-5xl xl:text-6xl font-semibold text-gray-900 w-7/12">
@@ -14,7 +15,7 @@ const Hero = ({ children, title, img, btnLink, btn }: any) => {
             </div>
           </div>
           <div className="lg:w-8/12 mt-6 md:mt-8 lg:mt-0 flex justify-end">
-            <div className="relative w-96 h-full">
+            <div data-aos="fade-up" data-aos-duration="2000" className="relative w-96 h-full">
               <img
                 src={img}
                 alt="A lounge sofa"
@@ -27,11 +28,11 @@ const Hero = ({ children, title, img, btnLink, btn }: any) => {
                 role="img"
                 className="w-full h-full lg:hidden"
               />
-              <button className="hidden lg:block absolute bottom-0 right-0 bg-red-200 w-1/2">
+              <button className="block lg:block absolute bottom-0 right-0 bg-red-200 w-1/2">
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href={btnLink}
+                  href={url}
                   className="dark:hover:bg-gray-800 dark:bg-white dark:hover:text-gray-50 dark:text-gray-800 bg-gray-800 text-xl xl:text-2xl font-medium text-white flex justify-between w-full items-center p-5 xl:p-6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700"
                 >
                   {btn}
@@ -70,11 +71,11 @@ const Hero = ({ children, title, img, btnLink, btn }: any) => {
                 </a>
               </button>
             </div>
-            <div className="mt-6 md:mt-8 lg:hidden">
-              <button className="dark:hover:bg-gray-800 dark:bg-white dark:hover:text-gray-50 dark:text-gray-800 bg-gray-800 text-base md:text-xl font-semibold leading-tight text-white flex justify-between items-center px-5 py-4 lg:py-7 lg:px-7 w-full md:w-5/12 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">
-                Discover More
-              </button>
-            </div>
+            {/* <div className="mt-6 md:mt-8 lg:hidden">
+              <a href={btnLink} className="dark:hover:bg-gray-800 dark:bg-white dark:hover:text-gray-50 dark:text-gray-800 bg-gray-800 text-base md:text-xl font-semibold leading-tight text-white flex justify-between items-center px-5 py-4 lg:py-7 lg:px-7 w-full md:w-5/12 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">
+                {btn}
+              </a>
+            </div> */}
           </div>
         </div>
       </div>

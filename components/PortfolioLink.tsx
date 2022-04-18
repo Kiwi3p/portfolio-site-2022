@@ -12,11 +12,22 @@ const PortfolioLink = (props: any) => {
             {props.header}{" "}
           </h1>
           <div className="flex flex-col justify-center lg:flex-row">
-            <a href={props.github} className="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
-              {" "}
-              See Github{" "}
-            </a>
-            <a href={props.url} className="flex items-center ml-6 px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-400 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
+            {props.data.GITHUBLINK ? (
+              <a
+                href={props.github}
+                className="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+              >
+                {" "}
+                See Github{" "}
+              </a>
+            ) : null}
+
+            <a
+              href={props.url}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center ml-6 px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-400 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+            >
               {" "}
               See Site{" "}
             </a>
@@ -26,7 +37,7 @@ const PortfolioLink = (props: any) => {
           <img
             className="object-cover object-center rounded-lg "
             alt="hero"
-            src="https://dummyimage.com/720x600/F3F4F7/8693ac"
+            src={props.img}
           />
         </div>
       </div>

@@ -2,6 +2,8 @@ import { ReactNode } from "react";
 import AppWrapper from "./AppWrapper";
 import PageWrapper from "./PageWrapper";
 import { motion } from "framer-motion";
+import { NavbarPage } from "../Navbar";
+import Footer from "../Footer";
 
 type IProps = {
   children?: ReactNode;
@@ -17,6 +19,7 @@ const variants = {
 const Layout = ({ children, title }: IProps) => {
   return (
     <AppWrapper title={title}>
+      <NavbarPage />
       <motion.div
         initial="hidden"
         animate="enter"
@@ -30,6 +33,7 @@ const Layout = ({ children, title }: IProps) => {
           </div>
         </div>
       </motion.div>
+      <Footer />
     </AppWrapper>
   );
 };

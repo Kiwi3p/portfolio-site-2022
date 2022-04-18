@@ -75,25 +75,32 @@ export class Game extends Component {
 
   render() {
     return (
-      <div
-        id="game-level"
-        className="flex flex-col justify-center items-center"
-      >
-        {/* <div id="image-switch"></div> */}
-        <div className="container-game">
-          <div id="text" className="lg:text-xl md:text-lg sm:text-xs">
-            Text
-          </div>
-          <div id="option-buttons" className="btn-grid">
-            <button className="btn bg-red-600 hover:bg-red-700 text-white text-sm px-4 py-2  border rounded-full ">
-              Option 1
-            </button>
-            <button className="btn">Option 2</button>
-            <button className="btn">Option 3</button>
-            <button className="btn">Option 4</button>
+      <>
+        <div
+          id="game-level"
+          className="flex flex-col justify-center items-center game-box"
+        >
+          {/* <div id="image-switch"></div> */}
+          <div className="my-14 lg:text-2xl md:text-lg sm:text-2xl">
+            <div className="my-2 text-4xl uppercase font-black">
+              Have a question? Ask the robot me with these quirky pre-defined
+              RPG style questions.
+            </div>
+            <div id="text" className="my-10">
+              Text
+            </div>
+            <div
+              id="option-buttons"
+              className="grid lg:grid-cols-2 grid-cols-1 gap-4"
+            >
+              <button className="">Option 1</button>
+              <button className="">Option 2</button>
+              <button className="">Option 3</button>
+              <button className="">Option 4</button>
+            </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }
