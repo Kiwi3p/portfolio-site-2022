@@ -19,3 +19,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.btn {gi
+  @apply bg-gray-600 text-white px-4 my-0 uppercase font-bold py-2 rounded-md text-xl font-medium hover:bg-gray-700 transition duration-300;
+}
+
+.game-box {
+  border: 5px solid #4B5563;
+  padding: 50px;
+  margin: 100px;
+  box-shadow: 15px 15px 0 0 #4B5563;
+}
