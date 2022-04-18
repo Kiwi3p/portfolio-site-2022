@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import api from "../data/game.json";
 
+
 export class Game extends Component {
   state = {};
 
