@@ -20,7 +20,7 @@ a {
   box-sizing: border-box;
 }
 
-.btn {gi
+.btn {
   @apply bg-gray-600 text-white px-4 my-0 uppercase font-bold py-2 rounded-md text-xl font-medium hover:bg-gray-700 transition duration-300;
 }
 
