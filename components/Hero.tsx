@@ -6,7 +6,7 @@ const Hero = ({ children, title, img, url, btn }: any) => {
         <div className="flex flex-col lg:flex-row justify-center items-strech my-10 lg:my-auto mx-4">
           <div className="lg:w-8/12 flex justify-center items-center">
             <div>
-              <h1 className="dark:text-white text-4xl md:text-5xl xl:text-6xl font-semibold text-gray-900 w-7/12">
+              <h1 className="dark:text-white text-4xl md:text-5xl xl:text-6xl font-bold text-gray-600 w-7/12">
                 {title}
               </h1>
               <p className="dark:text-gray-300 md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">

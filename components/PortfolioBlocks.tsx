@@ -127,115 +127,117 @@ const PortfolioBlocks = () => {
               {portfolioData.map((item: any, index: any) => {
                 return (
                   <>
-                    {index === 2 ? (
-                      <Link href={`/post${item.LINK}`}>
-                        <div
-                          data-aos="fade-up"
-                          data-aos-duration="1000"
-                          className="cursor-pointer relative transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                        >
-                          <div>
-                            <p className="p-6 pt-10 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-                              {item.ICONS.map((data: any) => {
-                                return (
-                                  <>
-                                    {data.javaScript ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-javascript-plain"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.vue ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-vuejs-plain"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.isReact ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-react-original"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.next ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-nextjs-original"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.python ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-python-plain"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.django ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-django-plain"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.nest ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-nestjs-plain"></i>
-                                      </button>
-                                    ) : null}
-                                  </>
-                                );
-                              })}
-                            </p>
-                            <div className="absolute bottom-0 left-0 md:p-10 p-6">
-                              <h2
-                                className={`text-xl font-semibold 5 text-white ${
-                                  item.DARK ? "text-black" : "text-white"
-                                }`}
-                              >
-                                {item.NAME}
-                              </h2>
-                              <p
-                                className={`text-base leading-4 text-white mt-2 ${
-                                  item.DARK ? "text-black" : "text-white"
-                                }`}
-                              >
-                                {item.SUBHEAD}
+                    <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                      {index === 2 ? (
+                        <Link href={`/post${item.LINK}`}>
+                          <div
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            className="cursor-pointer relative transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                          >
+                            <div>
+                              <p className="p-6 pt-10 text-xs font-medium leading-3 text-white absolute top-0 right-0">
+                                {item.ICONS.map((data: any) => {
+                                  return (
+                                    <>
+                                      {data.javaScript ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-javascript-plain"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.vue ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-vuejs-plain"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.isReact ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-react-original"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.next ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-nextjs-original"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.python ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-python-plain"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.django ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-django-plain"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.nest ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-nestjs-plain"></i>
+                                        </button>
+                                      ) : null}
+                                    </>
+                                  );
+                                })}
                               </p>
-                              <a
-                                href="javascript:void(0)"
-                                className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
-                              >
-                                <p
-                                  className={`pr-2 text-sm font-medium leading-none ${
+                              <div className="absolute bottom-0 left-0 md:p-10 p-6">
+                                <h2
+                                  className={`text-xl font-semibold 5 text-white ${
                                     item.DARK ? "text-black" : "text-white"
                                   }`}
                                 >
-                                  Read More
-                                </p>
-                                <svg
-                                  className="fill-stroke"
-                                  width="16"
-                                  height="16"
-                                  viewBox="0 0 16 16"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
+                                  {item.NAME}
+                                </h2>
+                                <p
+                                  className={`text-base leading-4 text-white mt-2 ${
+                                    item.DARK ? "text-black" : "text-white"
+                                  }`}
                                 >
-                                  <path
-                                    d="M5.75 12.5L10.25 8L5.75 3.5"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                              </a>
+                                  {item.SUBHEAD}
+                                </p>
+                                <a
+                                  href="javascript:void(0)"
+                                  className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
+                                >
+                                  <p
+                                    className={`pr-2 text-sm font-medium leading-none ${
+                                      item.DARK ? "text-black" : "text-white"
+                                    }`}
+                                  >
+                                    Read More
+                                  </p>
+                                  <svg
+                                    className="fill-stroke"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 16 16"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M5.75 12.5L10.25 8L5.75 3.5"
+                                      stroke="currentColor"
+                                      strokeWidth="2"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                    />
+                                  </svg>
+                                </a>
+                              </div>
                             </div>
+                            <img
+                              src={item.SQUARE}
+                              alt={item.ALT}
+                              className="w-full mt-8 md:mt-6 hidden sm:block"
+                            />
+                            <img
+                              className="w-full mt-4 sm:hidden"
+                              src={item.SQUARE}
+                              alt={item.ALT}
+                            />
                           </div>
-                          <img
-                            src={item.SQUARE}
-                            alt={item.ALT}
-                            className="w-full mt-8 md:mt-6 hidden sm:block"
-                          />
-                          <img
-                            className="w-full mt-4 sm:hidden"
-                            src={item.SQUARE}
-                            alt={item.ALT}
-                          />
-                        </div>
-                      </Link>
-                    ) : null}
+                        </Link>
+                      ) : null}
+                    </div>
                   </>
                 );
               })}
@@ -244,115 +246,117 @@ const PortfolioBlocks = () => {
               {portfolioData.map((item: any, index: any) => {
                 return (
                   <>
-                    {index === 3 ? (
-                      <Link href={`/post${item.LINK}`}>
-                        <div
-                          data-aos="fade-up"
-                          data-aos-duration="1000"
-                          className="cursor-pointer relative transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                        >
-                          <div>
-                            <p className="p-6 pt-10 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-                              {item.ICONS.map((data: any) => {
-                                return (
-                                  <>
-                                    {data.javaScript ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-javascript-plain"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.vue ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-vuejs-plain"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.isReact ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-react-original"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.next ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-nextjs-original"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.python ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-python-plain"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.django ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-django-plain"></i>
-                                      </button>
-                                    ) : null}
-                                    {data.nest ? (
-                                      <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-                                        <i className="devicon-nestjs-plain"></i>
-                                      </button>
-                                    ) : null}
-                                  </>
-                                );
-                              })}
-                            </p>
-                            <div className="absolute bottom-0 left-0 md:p-10 p-6">
-                              <h2
-                                className={`text-xl font-semibold 5 text-white ${
-                                  item.DARK ? "text-black" : "text-white"
-                                }`}
-                              >
-                                {item.NAME}
-                              </h2>
-                              <p
-                                className={`text-base leading-4 text-white mt-2 ${
-                                  item.DARK ? "text-black" : "text-white"
-                                }`}
-                              >
-                                {item.SUBHEAD}
+                    <div className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                      {index === 3 ? (
+                        <Link href={`/post${item.LINK}`}>
+                          <div
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            className="cursor-pointer relative transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                          >
+                            <div>
+                              <p className="p-6 pt-10 text-xs font-medium leading-3 text-white absolute top-0 right-0">
+                                {item.ICONS.map((data: any) => {
+                                  return (
+                                    <>
+                                      {data.javaScript ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-javascript-plain"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.vue ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-vuejs-plain"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.isReact ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-react-original"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.next ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-nextjs-original"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.python ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-python-plain"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.django ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-django-plain"></i>
+                                        </button>
+                                      ) : null}
+                                      {data.nest ? (
+                                        <button className="bg-blue-600 mx-1 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                          <i className="devicon-nestjs-plain"></i>
+                                        </button>
+                                      ) : null}
+                                    </>
+                                  );
+                                })}
                               </p>
-                              <a
-                                href="javascript:void(0)"
-                                className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
-                              >
-                                <p
-                                  className={`pr-2 text-sm font-medium leading-none ${
+                              <div className="absolute bottom-0 left-0 md:p-10 p-6">
+                                <h2
+                                  className={`text-xl font-semibold 5 text-white ${
                                     item.DARK ? "text-black" : "text-white"
                                   }`}
                                 >
-                                  Read More
-                                </p>
-                                <svg
-                                  className="fill-stroke"
-                                  width="16"
-                                  height="16"
-                                  viewBox="0 0 16 16"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
+                                  {item.NAME}
+                                </h2>
+                                <p
+                                  className={`text-base leading-4 text-white mt-2 ${
+                                    item.DARK ? "text-black" : "text-white"
+                                  }`}
                                 >
-                                  <path
-                                    d="M5.75 12.5L10.25 8L5.75 3.5"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                              </a>
+                                  {item.SUBHEAD}
+                                </p>
+                                <a
+                                  href="javascript:void(0)"
+                                  className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
+                                >
+                                  <p
+                                    className={`pr-2 text-sm font-medium leading-none ${
+                                      item.DARK ? "text-black" : "text-white"
+                                    }`}
+                                  >
+                                    Read More
+                                  </p>
+                                  <svg
+                                    className="fill-stroke"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 16 16"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M5.75 12.5L10.25 8L5.75 3.5"
+                                      stroke="currentColor"
+                                      strokeWidth="2"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                    />
+                                  </svg>
+                                </a>
+                              </div>
                             </div>
+                            <img
+                              src={item.SQUARE}
+                              alt={item.ALT}
+                              className="w-full mt-8 md:mt-6 hidden sm:block"
+                            />
+                            <img
+                              className="w-full mt-4 sm:hidden"
+                              src={item.SQUARE}
+                              alt={item.ALT}
+                            />
                           </div>
-                          <img
-                            src={item.SQUARE}
-                            alt={item.ALT}
-                            className="w-full mt-8 md:mt-6 hidden sm:block"
-                          />
-                          <img
-                            className="w-full mt-4 sm:hidden"
-                            src={item.SQUARE}
-                            alt={item.ALT}
-                          />
-                        </div>
-                      </Link>
-                    ) : null}
+                        </Link>
+                      ) : null}
+                    </div>
                   </>
                 );
               })}
