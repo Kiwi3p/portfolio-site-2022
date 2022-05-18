@@ -73,7 +73,7 @@
         "TECHIMG": "/assets/img/TheOffice-diagram.png",
         "FOOTERIMG": "/assets/img/TOE-logo.png",
         "GITHUBHEADER": "See more about the project.",
-        "SITELINK": "https://www.friendstheexperience.com/"
+        "SITELINK": "https://www.theofficeexperience.com/"
       }
     ]
   },
@@ -148,7 +148,8 @@
         "TECHDESCRIPTION": "This project challenged me to explore a technology and community I'd never come across before. Web3.js itself seemed daunting, and the technologies and APIs associated further complicated things. Even conceptualizing MetaMask, OpenSea, smart contracts, and test crypto currency were complicated ideas to tackle. Me and our other engineers met together and divided and conquered. <br /><br />On our soft launch with our white listed members, we had several UX problems. We lacked solid indication that you were signed in, and lacked error and success messages. In a 24 hour period I had to shape up and re-do our entire purchase flow just to give users an indication that their money went through correctly without having to dig into their MetaMask records. By the time the launch completed, the process was so seamless it fired like a large tech company's application would and we became larger than expected in our following. We now have several developers similarly interested in the project.",
         "TECHIMG": "/assets/img/hero-galaxy-2.png",
         "GITHUBHEADER": "See more about the project",
-        "SITELINK": "https://dev.hero-galaxy.vercel.app/",
+        "GITHUBLINK": "https://github.com/Kiwi3p/hero-frontend",
+        "SITELINK": "https://hero-galaxy.netlify.app/",
         "FOOTERIMG": "/assets/img/hero-galaxy-animated.gif"
       }
     ]
