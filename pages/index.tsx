@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         title="JACK TRANSUE"
         img="/assets/img/JT_PROF_PIC.jpg"
         btn="see resume"
-        url="/assets/uploads/JackTransueResume042622v2.pdf"
+        url="/assets/uploads/JackTransueResume022323.pdf"
       >
         Hi! I&apos;m full stack engineer with a creative background After
         establishing automation technologies that connect designer animations to
