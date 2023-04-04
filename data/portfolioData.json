@@ -81,7 +81,7 @@
     "IMAGE": "/assets/img/OSL-wide.png",
     "SQUARE": "/assets/img/OSL-square.png",
     "NAME": "Outside Lands Music Festival",
-    
+
     "SUBHEAD": "Principal Engineer",
     "DESCRIPTION": "Building a webapp that can scale to global markets.",
     "ALT": "Outside Lands",
@@ -118,7 +118,7 @@
     "IMAGE": "/assets/img/hero-galaxy-img.png",
     "SQUARE": "/assets/img/1x1-galaxy.jpg",
     "NAME": "Hero Galaxy NFT",
-    
+
     "SUBHEAD": "Founding/Principal Engineer",
     "DESCRIPTION": "Building an NFT Marketplace that's both user friendly and stands out",
     "ALT": "Hero Galaxy Image",
@@ -143,9 +143,9 @@
             "isReact": true
           }
         ],
-        "DESCRIPTION": "After completing several successful and viral campaigns at various different agencies in my career, I caught the attention of an old high school friend who wanted to launch his own NFT. Knowing that the market was oversatured, he called on me and my product designer wife to help come up with an initial prototype and brainstorming session for what we could deliver.<br /><br /> We ended up with a cute, cartoon based website that was heavy on animations and interaction. Dragable and clickable elements that made the galaxy background scatter gave users easter eggs to find to get them access to a secret white list. <br /><br />Our site's slicker than usual design caught the eye of several discord groups, and our project quickly went viral. <br /><br />We sold out in less than 10 seconds.",
+        "DESCRIPTION": "After completing several successful and viral campaigns at various different agencies in my career, I caught the attention of an old friend who wanted to launch his own NFT collection. Knowing that the market was oversatured, he called on me and my product designer wife to help come up with an initial prototype and brainstorming session for what we could deliver.<br /><br /> We ended up with a cute, cartoon based website that was heavy on animations and interaction. Dragable and clickable elements that made the galaxy background scatter gave users easter eggs to find to get them access to a secret white list. <br /><br />Our site's slicker than usual design caught the eye of several discord groups, and our project quickly went viral. <br /><br />We sold out in less than 10 seconds.",
         "TECHHEADER": "Exploring Web3",
-        "TECHDESCRIPTION": "This project challenged me to explore a technology and community I'd never come across before. Web3.js itself seemed daunting, and the technologies and APIs associated further complicated things. Even conceptualizing MetaMask, OpenSea, smart contracts, and test crypto currency were complicated ideas to tackle. Me and our other engineers met together and divided and conquered. <br /><br />On our soft launch with our white listed members, we had several UX problems. We lacked solid indication that you were signed in, and lacked error and success messages. In a 24 hour period I had to shape up and re-do our entire purchase flow just to give users an indication that their money went through correctly without having to dig into their MetaMask records. By the time the launch completed, the process was so seamless it fired like a large tech company's application would and we became larger than expected in our following. We now have several developers similarly interested in the project.",
+        "TECHDESCRIPTION": "This project challenged me to explore a technology and community I'd never come across before. Web3.js itself seemed daunting, and the technologies and APIs associated further complicated things. Even conceptualizing MetaMask, OpenSea, smart contracts, and test networks were complicated ideas to tackle, as they required me to relearn a lot of what I'd considered to be standard web development practices. As a team of engineers, we divided and conquered. <br /><br />On our soft launch with our white listed members, we had several UX problems. We lacked solid indication that you were signed in, and lacked error and success messages. In a 24 hour period I had to shape up and re-do our entire purchase flow just to give users an indication that their money went through correctly without having to dig into their MetaMask records. By the time the launch completed, the process was so seamless it fired like a large tech company's application would and we became larger than expected in our following. We now have several developers similarly interested in the project.<br/><br/>What happened afterward was a larger pivot. It was never supposed to be just an NFT drop, as we all knew that market was oversaturated. The master plan was to build a larger API that works off of Web3.JS, and also helps developers more quickly build Web3 applications and games. We knew just from entering this project that that's often a daunting task, and there was a real value proposition in making that easier. Hero Galaxy quickly became <a class='underline' href='https://www.utiliti.ai/' target='_blank'>utiliti.ai</a>, a company comrpised of many of the same team members that launched Hero Galaxy. ",
         "TECHIMG": "/assets/img/hero-galaxy-2.png",
         "GITHUBHEADER": "See more about the project",
         "GITHUBLINK": "https://github.com/Kiwi3p/hero-frontend",
