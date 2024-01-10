@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         btn="see resume"
         url="/assets/uploads/JackTransueResume-010924.pdf"
       >
-        Hi! I'm a full stack engineer with a creative background. 
+        Hi! I&apos;m a full stack engineer with a creative background. 
         <br/>
         <br/>
         After establishing automation technologies that connect designer animations to
