@@ -13,18 +13,21 @@ const Home: NextPage = () => {
         title="JACK TRANSUE"
         img="/assets/img/JT_PROF_PIC.jpg"
         btn="see resume"
-        url="/assets/uploads/JackTransueResume070523.pdf"
+        url="/assets/uploads/JackTransueResume-010924.pdf"
       >
-        Hi! I&apos;m full stack engineer with a creative background After
-        establishing automation technologies that connect designer animations to
+        Hi! I'm a full stack engineer with a creative background. 
+        <br/>
+        <br/>
+        After establishing automation technologies that connect designer animations to
         large scale ad deliveries, I transitioned to full stack engineering,
         working on projects for some of my favorite festivals and brands,
-        helping capture hundreds of thousands of users.
-        <br />
-        <br />
-        Feel free to message me here on LinkedIn to discuss opportunities! My
-        expertise includes Javascript, React, MongoDB, AXIOS, NodeJs, ExpressJs,
-        ES6, HTML & CSS, and NestJS.
+        helping capture hundreds of thousands of users. 
+        <br/>
+        <br/>
+        Feel free to message me
+        here on LinkedIn to discuss opportunities! My expertise includes
+        Javascript, React, AWS, MongoDB, AXIOS, NodeJs, ExpressJs, ES6, HTML &
+        CSS, and NestJS.
       </Hero>
       <PortfolioBlocks />
     </Layout>

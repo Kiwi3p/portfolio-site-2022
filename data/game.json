@@ -23,7 +23,7 @@
     },
     {
         "id": 2,
-        "text": "Most recently, I've been working for Superfly, an experiential design company responsible for Bonnaroo, Outside Lands, and the Friends Experience. Here I manage multiple web apps in Vue and React, and manage our back end AWS databases in Node.JS.",
+        "text": "Most recently I’ve been working for STOVA, an event tech company producing multi tenant applications that power conventions such as AWS Reinvent and IBC Amsterdam. I’ve been working solely in building a powerful user friendly user interface from scratch using the Next Vue framework, and modernizing an old ColdFusion backend by bringing it over to the Node.JS serverless framework.",
         "options": [
             {
                 "text": "Tell me about your web development experience",
@@ -86,7 +86,7 @@
     },
     {
         "id": 5,
-        "text": "Currently at Superfly, I work primarily in Next.js and Nuxt web apps, building them from scratch and creating a robust CMS for them so my coworkers can make codeless edits to our sites. At my previous job, I designed a JavaScript creative automation application that helped us globally scale adds for companies such as Google and Spotify. In December 2020 I completed a full stack web development bootcamp, adding to the two years of Java and JavaScript education I had in college. Most recently I worked for a large pharmaceutical company editing banner ads and Gatsby websites.",
+        "text": "Currently at STOVA I do a little bit of everything. I was mainly brought on for my frontend leaning full stack background at Superfly. I started building UIs for a large multi tenant application, but my background with Node.JS now has me rebuilding much of the company's backend in a serverless tech stack.",
         "options": [
             {
                 "text": "What have I been up to?",
@@ -94,7 +94,7 @@
             },
             {
                 "text": "What's your favorite project?",
-                "nextText": 6
+                "nextText": 9
             },
             {
                 "text": "What did I used to do?",
@@ -158,7 +158,7 @@
     },
     {
         "id": 9,
-        "text": "At my last job, we were coding banner ads in orders of over 100 per quarter for Spotify. This seemed tedius, so on my own time I worked to see if there was a way to create a JavaScript application that can anticipate creative sizing and automate aspects such as copy, image, and color changes. As a result we were able to automate our process and scale to larger development. By the time we left, our quarterly ask for banner ads was in the 1000s and not only featured global ads for Spotify, but we added Google to our client roster as well.",
+        "text": "At a previous job, we were coding banner ads in orders of over 100 per quarter for Spotify. This seemed tedius, so on my own time I worked to see if there was a way to create a JavaScript application that can anticipate creative sizing and automate aspects such as copy, image, and color changes. As a result we were able to automate our process and scale to larger development. By the time we left, our quarterly ask for banner ads was in the 1000s and not only featured global ads for Spotify, but we added Google to our client roster as well.",
         "options": [
             {
                 "text": "What have I been up to?",
@@ -176,7 +176,7 @@
     },
     {
         "id": 10,
-        "text": "At my last job, we were coding banner ads in orders of over 100 per quarter for Spotify. This seemed tedius, so on my own time I worked to see if there was a way to create a JavaScript application that can anticipate creative sizing and automate aspects such as copy, image, and color changes. As a result we were able to automate our process and scale to larger development. By the time we left, our quarterly ask for banner ads was in the 1000s and not only featured global ads for Spotify, but we added Google to our client roster as well.",
+        "text": "At a previous job, we were coding banner ads in orders of over 100 per quarter for Spotify. This seemed tedius, so on my own time I worked to see if there was a way to create a JavaScript application that can anticipate creative sizing and automate aspects such as copy, image, and color changes. As a result we were able to automate our process and scale to larger development. By the time we left, our quarterly ask for banner ads was in the 1000s and not only featured global ads for Spotify, but we added Google to our client roster as well.",
         "options": [
             {
                 "text": "What have I been up to?",

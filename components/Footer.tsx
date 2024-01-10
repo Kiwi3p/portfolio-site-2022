@@ -76,7 +76,7 @@ const Footer = () => {
               {" "}
               Copyright &copy;{"Jack Transue "}
               {/* <script>document.write(new Date().getFullYear());</script> */}
-              2022
+              2024
               All rights reserved
             </p>
           </div>

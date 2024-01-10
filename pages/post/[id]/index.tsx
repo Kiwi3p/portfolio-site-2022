@@ -10,7 +10,7 @@ import ReactHtmlParser from "react-html-parser";
 const Post = () => {
   const router = useRouter();
   const { id } = router.query;
-  console.log(router.query);
+  // console.log(router.query);
 
   return (
     <>
@@ -36,6 +36,7 @@ const Post = () => {
                                   subhead={item.SUBHEAD}
                                   icons={item.ICONS}
                                   url={item.SITELINK}
+                                  showHide={item.FINDOUT}
                                 >
                                   {ReactHtmlParser(item.DESCRIPTION)}
                                 </ProjectDescription>

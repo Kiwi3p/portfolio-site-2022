@@ -1,10 +1,49 @@
 [
   {
+    "IMAGE": "/assets/img/stova1.png",
+    "SQUARE": "/assets/img/stova_logo.jpeg",
+    "NAME": "STOVA Expo Pro",
+    "SUBHEAD": "Engineer",
+    "DESCRIPTION": "Building a multi tenant web application that has the power to power entire conventions",
+    "ALT": "ExpoPro",
+    "LINK": "/project7",
+    "ICONS": [
+      {
+        "javaScript": true,
+        "vue": true,
+        "nuxt": true
+      }
+    ],
+    "SUBNAV": [
+      {
+        "IMAGE": "/assets/img/stova1.png",
+        "NAME": "STOVA: ExpoPro",
+        "HERO": "Building a multi tenant web application that has the power to power entire conventions",
+        "SUBHEAD": "Engineer",
+        "ICONS": [
+          {
+            "javaScript": true,
+            "vue": true,
+            "nuxt": true
+          }
+        ],
+        "DESCRIPTION": "ExpoPro is a Nuxt based multi tenant application that incorporates a robust back end. It's design is to allow multiple events to book multiple vendors, booths, and attendees for conventions. It's broad design allows for mutiple conventions to be run at once, with everything from venue layouts, to attendee particiaption being tracked.",
+        "TECHHEADER": "Database architecture",
+        "TECHDESCRIPTION": "The site architecture incorporates a Tailwind CSS based Nuxt front end, and a ColdFusion based backend using MsSql",
+        "TECHIMG": "/assets/img/stova2.png",
+        "FINDOUT": false,
+        "FOOTERIMG": "/assets/img/fnds-logo.png",
+        "GITHUBHEADER": "See more about the project.",
+        "SITELINK": "https://www.friendstheexperience.com/"
+      }
+    ]
+  },
+  {
     "IMAGE": "/assets/img/friends-img.png",
     "SQUARE": "/assets/img/fnds-square-2.png",
     "NAME": "The Friends Experience",
 
-    "SUBHEAD": "Principal Engineer",
+    "SUBHEAD": "Engineer",
     "DESCRIPTION": "Building a webapp that can scale to global markets.",
     "ALT": "The Friends Experience",
     "LINK": "/project1",
@@ -20,7 +59,7 @@
         "IMAGE": "/assets/img/friends-img.png",
         "NAME": "The Friends Experience",
         "HERO": "Building a webapp that can scale to global markets.",
-        "SUBHEAD": "Principal Engineer",
+        "SUBHEAD": "Engineer",
         "ICONS": [
           {
             "javaScript": true,
@@ -32,6 +71,7 @@
         "TECHHEADER": "Database architecture",
         "TECHDESCRIPTION": "On top of a robust CMS, this site has a serverless AWS back-end for storing user information. Based on our emerging markets, we have functions that tie email signups based on routes, or by user choice. <br /><br />Currently we have markets from around the world. In order to properly filter this information, I had to create a function that sends \"tags\" from our front end to our back end. These tags are then filtered to our three different databases. The Tradable Bits CRM takes this data in and analyzes it against other customers. The Mailchimp API inputs our data and organizes it into localized data, allowing for email automation to be triggered by this same function. Finally, I have a function that saves this information with it's approriate tag metadata save to a SQL DynamoDB database as a backup",
         "TECHIMG": "/assets/img/Friends-diagram.png",
+        "FINDOUT": true,
         "FOOTERIMG": "/assets/img/fnds-logo.png",
         "GITHUBHEADER": "See more about the project.",
         "SITELINK": "https://www.friendstheexperience.com/"
@@ -43,7 +83,7 @@
     "SQUARE": "/assets/img/office-square-v3.png",
     "NAME": "The Office Experience",
 
-    "SUBHEAD": "Principal Engineer",
+    "SUBHEAD": "Engineer",
     "DESCRIPTION": "Investigating converting a Vue based workplace to React",
     "ALT": "The Office Experience",
     "LINK": "/project2",
@@ -59,7 +99,7 @@
         "IMAGE": "/assets/img/office-img.png",
         "NAME": "The Office Experience",
         "HERO": "Investigating converting a Vue based workplace to React",
-        "SUBHEAD": "Principal Engineer",
+        "SUBHEAD": "Engineer",
         "ICONS": [
           {
             "javaScript": true,
@@ -82,7 +122,7 @@
     "SQUARE": "/assets/img/OSL-square.png",
     "NAME": "Outside Lands Music Festival",
 
-    "SUBHEAD": "Principal Engineer",
+    "SUBHEAD": "Engineer",
     "DESCRIPTION": "Building a webapp that can scale to global markets.",
     "ALT": "Outside Lands",
     "LINK": "/project3",
@@ -97,7 +137,7 @@
         "IMAGE": "/assets/img/OSL-wide.png",
         "NAME": "Outside Lands Music Festival",
         "HERO": "Building a webapp that can scale to global markets.",
-        "SUBHEAD": "Principal Engineer",
+        "SUBHEAD": "Engineer",
         "ICONS": [
           {
             "javaScript": true,
@@ -108,6 +148,7 @@
         "TECHHEADER": "Database Architecture",
         "TECHDESCRIPTION": "On top of a robust CMS, this site has a serverless AWS back-end for storing user information.  <br /><br />I had to create a function that sends \"tags\" from our front end to our back end. These tags are then filtered to our three different databases. The Tradable Bits CRM takes this data in and analyzes it against other customers. The Mailchimp API inputs our data and organizes it into localized data, allowing for email automation to be triggered by this same function. Finally, I have a function that saves this information with it's approriate tag metadata save to a SQL DynamoDB database as a backup. <br/><br/>What was unique about this data structure, is that instead of just capturing email data, I also had to capture Zip code and Phone number information to trigger text message automations.",
         "TECHIMG": "/assets/img/OSL-Diagram.png",
+        "FINDOUT": true,
         "GITHUBHEADER": "See more about the project.",
         "FOOTERIMG": "/assets/img/osl-footer.png",
         "SITELINK": "http://2021.sfoutsidelands.com"
@@ -119,7 +160,7 @@
     "SQUARE": "/assets/img/1x1-galaxy.jpg",
     "NAME": "Hero Galaxy NFT",
 
-    "SUBHEAD": "Founding/Principal Engineer",
+    "SUBHEAD": "Founder/Engineer",
     "DESCRIPTION": "Building an NFT Marketplace that's both user friendly and stands out",
     "ALT": "Hero Galaxy Image",
     "LINK": "/project4",
@@ -135,7 +176,7 @@
         "IMAGE": "/assets/img/hero-galaxy-img.png",
         "NAME": "Hero Galaxy",
         "HERO": "Building an NFT Marketplace that's both user friendly and stands out",
-        "SUBHEAD": "Principal Engineer",
+        "SUBHEAD": "Engineer",
         "ICONS": [
           {
             "javaScript": true,
@@ -147,6 +188,7 @@
         "TECHHEADER": "Exploring Web3",
         "TECHDESCRIPTION": "This project challenged me to explore a technology and community I'd never come across before. Web3.js itself seemed daunting, and the technologies and APIs associated further complicated things. Even conceptualizing MetaMask, OpenSea, smart contracts, and test networks were complicated ideas to tackle, as they required me to relearn a lot of what I'd considered to be standard web development practices. As a team of engineers, we divided and conquered. <br /><br />On our soft launch with our white listed members, we had several UX problems. We lacked solid indication that you were signed in, and lacked error and success messages. In a 24 hour period I had to shape up and re-do our entire purchase flow just to give users an indication that their money went through correctly without having to dig into their MetaMask records. By the time the launch completed, the process was so seamless it fired like a large tech company's application would and we became larger than expected in our following. We now have several developers similarly interested in the project.<br/><br/>What happened afterward was a larger pivot. It was never supposed to be just an NFT drop, as we all knew that market was oversaturated. The master plan was to build a larger API that works off of Web3.JS, and also helps developers more quickly build Web3 applications and games. We knew just from entering this project that that's often a daunting task, and there was a real value proposition in making that easier. Hero Galaxy quickly became <a class='underline' href='https://www.utiliti.ai/' target='_blank'>utiliti.ai</a>, a company comrpised of many of the same team members that launched Hero Galaxy. ",
         "TECHIMG": "/assets/img/hero-galaxy-2.png",
+        "FINDOUT": true,
         "GITHUBHEADER": "See more about the project",
         "GITHUBLINK": "https://github.com/Kiwi3p/hero-frontend",
         "SITELINK": "https://hero-galaxy.netlify.app/",
@@ -185,6 +227,7 @@
         "TECHHEADER": "Tech header example",
         "TECHDESCRIPTION": "This tech was more on the creative side. Dealing directly with process automation via scripting, the application would intake a Google Sheet handed to us by our clients. Based on a series of switch cases and conditionals, the application would filter through the cells of the sheet one by one. It would then read through our After Effects file and animation templates, switching out text, dimensions, assets(images, video, animation), and other features. Hours of busy work could be completed in a matter of seconds.",
         "TECHIMG": "/assets/img/banner-code.png",
+        "FINDOUT": true,
         "GITHUBHEADER": "See more on github",
         "GITHUBLINK": "https://github.com/Kiwi3p/2020holiday_Presents_300x250",
         "SITELINK": "https://kiwi3p.github.io/2020holiday_Presents_300x250/",
@@ -223,6 +266,7 @@
         "TECHHEADER": "Tech header example",
         "TECHDESCRIPTION": "This tech was more on the creative side. Dealing directly with process automation via scripting, the application would intake a Google Sheet handed to us by our clients. Based on a series of switch cases and conditionals, the application would filter through the cells of the sheet one by one. It would then read through a series of basic banner ad templates, switching out text, dimensions, assets(images, video, animation), and other features. Hours of busy work could be completed in a matter of seconds.",
         "TECHIMG": "/assets/img/banner-code.png",
+        "FINDOUT": true,
         "GITHUBHEADER": "See more on github",
         "GITHUBLINK": "https://github.com/Kiwi3p/2020holiday_Unwrappable_970x250",
         "SITELINK": "https://kiwi3p.github.io/2020holiday_Unwrappable_970x250/",
