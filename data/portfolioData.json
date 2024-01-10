@@ -201,7 +201,7 @@
     "SQUARE": "/assets/img/google-banner-1-v3.png",
     "NAME": "Adobe Automator",
     "DARK": true,
-    "SUBHEAD": "Inventor/Developer",
+    "SUBHEAD": "Founder/Engineer",
     "DESCRIPTION": "Can social ads be automated with simple AI?",
     "ALT": "Adobe Automator",
     "LINK": "/project5",
@@ -215,7 +215,7 @@
         "IMAGE": "/assets/img/google-banner-wide.png",
         "NAME": "Adobe Automator",
         "HERO": "Can social ads be automated with simple AI?",
-        "SUBHEAD": "Inventor/Developer",
+        "SUBHEAD": "Founder/Engineer",
         "ICONS": [
           {
             "javaScript": true,
@@ -231,45 +231,6 @@
         "GITHUBHEADER": "See more on github",
         "GITHUBLINK": "https://github.com/Kiwi3p/2020holiday_Presents_300x250",
         "SITELINK": "https://kiwi3p.github.io/2020holiday_Presents_300x250/",
-        "FOOTERIMG": "/assets/img/byte-london.png"
-      }
-    ]
-  },
-  {
-    "IMAGE": "/assets/img/google-banner-wide-2.png",
-    "SQUARE": "/assets/img/google-banner-2-v3.png",
-    "NAME": "Banner Automator",
-    "DARK": false,
-    "SUBHEAD": "Inventor/Developer",
-    "DESCRIPTION": "Can banner ads be automated with simple AI?",
-    "ALT": "Banner Ad Image",
-    "LINK": "/project6",
-    "ICONS": [
-      {
-        "javaScript": true
-      }
-    ],
-    "SUBNAV": [
-      {
-        "IMAGE": "/assets/img/google-banner-wide-2.png",
-        "NAME": "Adobe Automator",
-        "HERO": "Can banner ads be automated with simple AI?",
-        "SUBHEAD": "Inventor/Developer",
-        "ICONS": [
-          {
-            "javaScript": true,
-            "vue": true,
-            "nuxt": true
-          }
-        ],
-        "DESCRIPTION": "This is the project that started it all for me.<br /><br />After years of entertainment industry experience administrating and building out post production server hardware/software, our agency started getting requests for banner ad adverstisments in large scale deliveries. This meant we needed HTML based banner ads to be done in several different markets at once. <br /><br />At first, our small team could get this front end code done, but as the ask turned into thousands of assets per quarter, we were overwhelmed.<br /><br /> Based on my previous experience with creating an automator for our video assets via scripting, our head dev in London brought to attention the ability to do this same process via Node.js for HTML assets.",
-        "TECHHEADER": "Tech header example",
-        "TECHDESCRIPTION": "This tech was more on the creative side. Dealing directly with process automation via scripting, the application would intake a Google Sheet handed to us by our clients. Based on a series of switch cases and conditionals, the application would filter through the cells of the sheet one by one. It would then read through a series of basic banner ad templates, switching out text, dimensions, assets(images, video, animation), and other features. Hours of busy work could be completed in a matter of seconds.",
-        "TECHIMG": "/assets/img/banner-code.png",
-        "FINDOUT": true,
-        "GITHUBHEADER": "See more on github",
-        "GITHUBLINK": "https://github.com/Kiwi3p/2020holiday_Unwrappable_970x250",
-        "SITELINK": "https://kiwi3p.github.io/2020holiday_Unwrappable_970x250/",
         "FOOTERIMG": "/assets/img/byte-london.png"
       }
     ]
