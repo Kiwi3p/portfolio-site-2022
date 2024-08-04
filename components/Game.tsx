@@ -84,8 +84,7 @@ export class Game extends Component {
           {/* <div id="image-switch"></div> */}
           <div className="my-14 lg:text-2xl md:text-lg sm:text-2xl">
             <div className="my-2 text-4xl uppercase font-black">
-              Have a question? Ask the robot me with these quirky pre-defined
-              RPG style questions.
+              Have a question? Ask the robot me.
             </div>
             <div id="text" className="my-10">
               Text
