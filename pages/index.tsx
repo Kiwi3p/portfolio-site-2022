@@ -15,19 +15,11 @@ const Home: NextPage = () => {
         btn="see resume"
         url="/assets/uploads/JackTransueResume-010924.pdf"
       >
-        Hi! I&apos;m a full stack engineer with a creative background. 
+        Hi! I&apos;m a full stack engineer with extensive background in B2B and B2C SaaS development, particularly in web and mobile applications. 
         <br/>
         <br/>
-        After establishing automation technologies that connect designer animations to
-        large scale ad deliveries, I transitioned to full stack engineering,
-        working on projects for some of my favorite festivals and brands,
-        helping capture hundreds of thousands of users. 
-        <br/>
-        <br/>
-        Feel free to message me
-        here on LinkedIn to discuss opportunities! My expertise includes
-        Javascript, React, AWS, MongoDB, AXIOS, NodeJs, ExpressJs, ES6, HTML &
-        CSS, and NestJS.
+        My expertise includes
+        Javascript, Vue (Nuxt.js), React(Next.js), AWS Lambda, Serverless, SQL, NodeJS, Python, Django, and NestJS.
       </Hero>
       <PortfolioBlocks />
     </Layout>

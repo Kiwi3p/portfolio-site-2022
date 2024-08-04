@@ -23,7 +23,7 @@
     },
     {
         "id": 2,
-        "text": "Most recently I’ve been working for STOVA, an event tech company producing multi tenant applications that power conventions such as AWS Reinvent and IBC Amsterdam. I’ve been working solely in building a powerful user friendly user interface from scratch using the Next Vue framework, and modernizing an old ColdFusion backend by bringing it over to the Node.JS serverless framework.",
+        "text": "Most recently I've been working at Surfside as an Integrations Engineer. I've been brought on to help expand and mange the team, while also help expand their Sotware Development Kit build outs. The development kit in particular is an extremely lightweight snowplow based digital pixel that clients place on their website, that then funnels data through different pipelines, and in some situations, learning language models.",
         "options": [
             {
                 "text": "Tell me about your web development experience",
@@ -45,7 +45,7 @@
     },
     {
         "id": 3,
-        "text": "I used to be a video shooter/editor. That also included building servers, scripting automation processes within the adobe cloud, and working within teams or leading interns. I've interviewed, shot, and edited artists such as Snoop Dogg, Florence and the Machine, and Dave Mathews. I've also made work for David Byrne that was featured at MoMA PS1.",
+        "text": "Many years ago, I used to be a video shooter/editor. That also included building servers, scripting automation processes within the adobe cloud, and working within teams or leading interns. I've interviewed, shot, and edited artists such as Snoop Dogg, Florence and the Machine, and Dave Mathews. I've also made work for David Byrne that was featured at MoMA PS1.",
         "options": [
             {
                 "text": "See my old reel",
@@ -86,7 +86,7 @@
     },
     {
         "id": 5,
-        "text": "Currently at STOVA I do a little bit of everything. I was mainly brought on for my frontend leaning full stack background at Superfly. I started building UIs for a large multi tenant application, but my background with Node.JS now has me rebuilding much of the company's backend in a serverless tech stack.",
+        "text": "Most recently at STOVA I do a little bit of everything. I was mainly brought on for my frontend leaning full stack background at Superfly. I started building UIs for a large multi tenant application, but my background with Node.JS now has me rebuilding much of the company's backend in a serverless tech stack.",
         "options": [
             {
                 "text": "What have I been up to?",
@@ -122,7 +122,7 @@
     },
     {
         "id": 7,
-        "text": "Most recently I completed IronHack Web Development Bootcamp in Lisbon Portugal. The Pasteis De Nata were wonderful. My background however is originally in creative technology, as I majored in Post Production/New Media at Emerson College in 2016. This included two years of programming courses in Java and JavaScript",
+        "text": "I completed IronHack Web Development Bootcamp in Lisbon Portugal. The Pasteis De Nata were wonderful. My background however is originally in creative technology, as I majored in Post Production/New Media at Emerson College in 2016. This included two years of programming courses in Java and JavaScript",
         "options": [
             {
                 "text": "What have I been up to?",
