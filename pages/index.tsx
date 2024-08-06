@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         title="JACK TRANSUE"
         img="/assets/img/JT_PROF_PIC.jpg"
         btn="see resume"
-        url="/assets/uploads/JackTransueResume-010924.pdf"
+        url="/assets/uploads/JackTransueResume080524.pdf"
       >
         Hi! I&apos;m a full stack engineer with extensive background in B2B and B2C SaaS development, particularly in web and mobile applications. 
         <br/>
